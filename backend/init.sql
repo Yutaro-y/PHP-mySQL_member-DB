@@ -2,8 +2,8 @@
 CREATE DATABASE IF NOT EXISTS member_db CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 
 -- DBユーザー作成（必要に応じて）
-CREATE USER IF NOT EXISTS 'appuser'@'%' IDENTIFIED BY 'securepassword';
-GRANT ALL PRIVILEGES ON member_db.* TO 'appuser'@'%';
+CREATE USER IF NOT EXISTS 'user'@'%' IDENTIFIED BY 'securepassword';
+GRANT ALL PRIVILEGES ON member_db.* TO 'user'@'%';
 FLUSH PRIVILEGES;
 
 -- 使用するDB選択
