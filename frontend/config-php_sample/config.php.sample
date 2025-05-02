@@ -1,0 +1,6 @@
+<?php
+$DB_HOST = 'localhost'; #DBserver-IP
+$DB_USER = 'user';
+$DB_PASS = 'user';
+$DB_NAME = 'memberdb';
+?>

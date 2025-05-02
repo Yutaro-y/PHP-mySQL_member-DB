@@ -1,0 +1,7 @@
+# 機密ファイル
+frontend/config.php
+
+# 不要ファイル
+*.log
+.env
+*.bak
